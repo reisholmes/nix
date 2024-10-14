@@ -1,10 +1,8 @@
-# Nix Package Manager Configuration
+Nix repo experimenting with flakes.
 
-Note: 
+Modified from someone smarter than me: https://github.com/pusherofbrooms/ops-tool-belt/tree/main
 
-Taken from: https://github.com/pusherofbrooms/ops-tool-belt/tree/main
-
-The main idea is to easily install all packages with one profile command, the above nix flake ensures we can do that. 
+The main idea is to easily install all packages required into our profile with one profile command.
 
 1. Install nix package manager as per the instructions at https://nixos.org/download.html
 
@@ -18,4 +16,3 @@ The main idea is to easily install all packages with one profile command, the ab
 4. Run `nix profile upgrade stdPkgs` to update the profile when you add new packages.
 
 5. Don't forget that some tools may require you to reload the shell
-
