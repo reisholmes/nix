@@ -51,6 +51,7 @@
               tree
               wget
               yq
+              (nerdfonts.override { fonts = [ "Hack" ]; })
             ];
           };
           # If you desire a set of personalized packages,
