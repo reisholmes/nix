@@ -44,10 +44,10 @@
           stdPkgs = pkgs.buildEnv {
             name = "StandardPackages";
             paths = with pkgs; [
-			  git
-			  lf
-			  jq
-			  neovim
+              git
+              lf
+              jq
+              neovim
               tree
               wget
               yq
